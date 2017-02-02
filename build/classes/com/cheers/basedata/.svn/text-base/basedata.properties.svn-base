@@ -1,0 +1,51 @@
+com.cheers.basedata.getCussource=select  id value, name text from BASE_DATA where type \= 'Cussource' and isenable \='1'
+com.cheers.basedata.getCussource2=select  id value, name text from BASE_DATA where type \= 'Cussource' 
+
+com.cheers.basedata.getCustype=select  id value, name text from BASE_DATA where type \= 'Custype' and isenable \='1'
+com.cheers.basedata.getCustype2=select  id value, name text from BASE_DATA where type \= 'Custype' 
+
+com.cheers.basedata.getIndustry=select  id value, name text from BASE_DATA where type \= 'industry' and isenable \='1'
+com.cheers.basedata.getIndustry2=select  id value, name text from BASE_DATA where type \= 'industry' 
+
+com.cheers.basedata.getVisitlv=select  id value, name text from BASE_DATA where type \= 'visitlv' and isenable \='1'
+com.cheers.basedata.getVisitlv2=select  id value, name text from BASE_DATA where type \= 'visitlv' 
+
+com.cheers.basedata.getReporttype=select  id value, name text from BASE_DATA where type \= 'reporttype' and isenable \='1'
+com.cheers.basedata.getLevelIds=select  id value, name text from BASE_DATA where type \= 'level' and isenable \='1'
+com.cheers.basedata.getReporttype2=select  id value, name text from BASE_DATA where type \= 'reporttype' 
+
+com.cheers.basedata.getReceipt=select  id value, name text from BASE_DATA where type \= 'receipt' and isenable \='1'
+com.cheers.basedata.getReceipt2=select  id value, name text from BASE_DATA where type \= 'receipt' 
+
+com.cheers.basedata.getPosition=select  id value, name text from BASE_DATA where type \= 'position' and isenable \='1'
+com.cheers.basedata.getPosition2=select  id value, name text from BASE_DATA where type \= 'position' 
+
+
+
+com.cheers.basedata.getCusfl=select  id value, name text from BASE_DATA where type \= 'Cusfl' and isenable \='1'
+com.cheers.basedata.getCusfl2=select  id value, name text from BASE_DATA where type \= 'Cusfl' 
+
+
+com.cheers.basedata.getCusVisittype=select  id value, name text from BASE_DATA where type \= 'CusVisittype' and isenable \='1'
+com.cheers.basedata.getCusVisittype2=select  id value, name text from BASE_DATA where type \= 'CusVisittype' 
+
+
+
+com.cheers.basedata.getCusPhotetype=select  id value, name text from BASE_DATA where type \= 'photo' and isenable \='1'
+com.cheers.basedata.getCusPhotetype2=select  id value, name text from BASE_DATA where type \= 'photo' 
+
+
+com.cheers.basedata.getPaytype=select  id value, name text from BASE_DATA where type \= 'pay' and isenable \='1'
+com.cheers.basedata.getPaytype2=select  id value, name text from BASE_DATA where type \= 'pay' 
+
+com.cheers.basedata.getHuikuantype=select  id value, name text from BASE_DATA where type \= 'huikuantype' and isenable \='1'
+com.cheers.basedata.getHuikuantype2=select  id value, name text from BASE_DATA where type \= 'huikuantype' 
+
+com.cheers.basedata.getspecialtype=select  id value, name text from specialType where type \= 'reporttype' and enable \='1'
+com.cheers.basedata.getspecialtype2=select  id value, name text from specialType where type \= 'reporttype' 
+
+com.cheers.basedata.getproductunits=select  id value, name text from BASE_DATA where type \= 'productunit' and isenable \='1'
+com.cheers.basedata.getproductunits2=select  id value, name text from BASE_DATA where type \= 'productunit' 
+
+com.cheers.basedata.getDemandProduct=select top 20 id value, name text from BASE_DATA where type \= 'demandproduct' and isenable \='1'
+com.cheers.basedata.getProjectstatus=select id value, name text from BASE_DATA where type \= 'projectStatus' and isenable \='1'

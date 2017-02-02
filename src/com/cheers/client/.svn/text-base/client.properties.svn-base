@@ -1,0 +1,6 @@
+com.cheers.client.getClient=select top 50 id value,name text,address,tele,balance from customer where 1\=1 and enable\=1 
+com.cheers.client.getClient2=select top 50 id value,name text from customer where 1\=1 
+com.cheers.client.getClient3=select id value,name text from customer where enable\=1
+com.cheers.client.getReturnCustomer=SELECT DISTINCT top 50  dbo.Customer.ID AS value, dbo.Customer.name AS text FROM         dbo.StockIO INNER JOIN  dbo.SysAccount ON dbo.StockIO.accountId \= dbo.SysAccount.ID INNER JOIN  dbo.Customer ON dbo.SysAccount.ID \= dbo.Customer.accountId
+com.cheers.client.getVisitClient=select top 100 percent id value,name text from customer where 1\=1 and id in( select customerId from routecustomer where routeid\=(select top 1 id from route where  accountid\=1 and visitTime\=1))
+com.cheers.client.getClientname=select top 50 id value,name text from customer where 1\=1

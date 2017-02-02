@@ -1,0 +1,6 @@
+com.cheers.news.a=2
+com.cheers.news.newsSpecification=select top 5  *  from combobox where type\='news'
+com.cheers.news.abc=select top 5  *  from abc 
+com.cheers.news.getnews=select top 5 * from news where 1\=1 
+com.cheers.news.getAccount=select top 100 percent  * from account where 1\=1 
+ 

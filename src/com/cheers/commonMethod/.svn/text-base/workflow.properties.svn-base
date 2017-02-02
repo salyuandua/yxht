@@ -1,0 +1,18 @@
+#系统是否处于维护 0否 1是
+isWeiHu=0
+
+##系统 账号id
+ID_SYSTEM=103
+ID_GLY=2
+
+#this is memo
+
+##组织机构内部treeOrder
+zzjgnb=10105
+##组织机构外部treeOrder
+zzjgwb=10106
+##人员分组内部treeOrder
+ryfznb=10105
+##人员分组外部treeOrder
+ryfzwb=10106
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true">
+  <Resource name="jdbc/db" auth="Container" type="javax.sql.DataSource"
+ 	maxActive="100"    maxIdle="30"  maxWait="10000"   username="sa"  removeAbandoned="true"
+ 	 removeAbandonedTimeout="300"
+ 	password="cheers172date"     driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  	url="jdbc:sqlserver://172.30.6.156:1433;databaseName=yixinshuma;SelectMethod=cursor" />
+
+</Context>
+<!-- url="jdbc:sqlserver://127.0.0.1:1433;databaseName=new_db;SelectMethod=cursor"  
+	 
+	 password="cheers172date"     driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  	 url="jdbc:sqlserver://172.30.6.156:1433;databaseName=kefazhengshi;SelectMethod=cursor" />
+
+-->

@@ -1,0 +1,4 @@
+com.cheers.order.getOrder=select top 50 id value ,name text from Order where 1\=1
+com.cheers.order.getOrder2=select top 50 id value ,code text from Orders where 1\=1
+com.cheers.order.getorderinfo=select top 50 pu.name othername,pu.name mainname,p.name,p.specification,s.name sname,c.name cname,o.createtime,o.code,od.sum from ProductUnit pu,ProductUnit puc,Product p,SysAccount s,OrderDetail od,Orders o left join  Customer c on o.customerid \= c.id where o.id\=od.orderId and od.productId\=p.ID and o.accountId\=s.ID and p.productMeasureId\=pu.ID and p.productOtherId\=puc.ID
+com.cheers.order.getordercode=select top 50 code from Orders

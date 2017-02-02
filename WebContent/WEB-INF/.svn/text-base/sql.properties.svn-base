@@ -1,0 +1,6 @@
+com.cheers.location=com/cheers/location/location.properties
+com.cheers.system=com/cheers/basedata/basedata.properties
+com.cheers.news=com/cheers/news/news.properties
+com.cheers.product=com/cheers/product/product.properties
+com.cheers.account=com/cheers/system/account/account.properties
+com.cheers.client=com/cheers/client/client.properties
